@@ -1,0 +1,19 @@
+{
+  "name": "quake-log-parser",
+  "version": "1.0.0",
+  "description": "Quake log parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kauemassucci96/quake-log-parser.git"
+  },
+  "author": "Kauê Massucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauemassucci96/quake-log-parser/issues"
+  },
+  "homepage": "https://github.com/kauemassucci96/quake-log-parser#readme"
+}
