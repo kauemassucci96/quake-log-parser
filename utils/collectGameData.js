@@ -22,8 +22,13 @@ function colectGameData(expression, gameJSON) {
 	var weapon = getWeapon(expression);
 	gameJSON = addWeaponKill(weapon, gameJSON);
 
+	// if the killer is the world, remove a point from the dead player
+	if(killer === "<world>") {
+		gameJSON = reduceKillFromPlayer(expression, gameJSON);
+	}
+				
+	gameJSON.total_kills++;		
 	return gameJSON;
-
 }
 
 module.exports = colectGameData;
