@@ -24,14 +24,14 @@ The player "Isgalamido" killed the player "Dono da Bola" using the Railgun weapo
 Example of grouped information for each match:
 
 "game_1": {
-"total_kills": 45,
-"players": ["Dono da bola", "Isgalamido", "Zeh"],
-"kills": {
-  "Dono da bola": 5,
-  "Isgalamido": 18,
-  "Zeh": 20
+  "total_kills": 45,
+  "players": ["Dono da bola", "Isgalamido", "Zeh"],
+  "kills": {
+    "Dono da bola": 5,
+    "Isgalamido": 18,
+    "Zeh": 20
+    }
   }
-}
 Additional notes:
 
 When <world> kill a player, that player loses -1 kill score.
