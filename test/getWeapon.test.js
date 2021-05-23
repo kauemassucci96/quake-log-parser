@@ -10,8 +10,8 @@ test('Get the weapon MOD_TRIGGER_HURT', () => {
 
 test('Get the weapon MOD_ROCKET_SPLASH', () => {   
     expect(getWeapon(WEAPON_MOD_ROCKET_SPLASH)).toBe("MOD_ROCKET_SPLASH");  
-  });
+});
 
-  test('Get the weapon MOD_MACHINEGUN', () => {   
+test('Get the weapon MOD_MACHINEGUN', () => {   
     expect(getWeapon(WEAPON_MOD_MACHINEGUN)).toBe("MOD_MACHINEGUN");  
-  });
+});
