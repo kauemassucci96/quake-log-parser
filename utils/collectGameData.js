@@ -1,3 +1,4 @@
+const addKillers = require('./addKillers');
 const addPlayers = require('./addPlayers');
 const addWeaponKill = require('./addWeaponKill');
 const getKilledPlayer = require('./getKilledPlayer');
@@ -13,6 +14,9 @@ function colectGameData(expression, gameJSON) {
 
     // Add killer players and kills on array
 	gameJSON = addPlayers(killer, gameJSON);
+	if(killer !== "<world>") {
+		gameJSON = addKillers(killer, gameJSON);
+	}
     
 	// Add weapon on kills by means arrat
 	var weapon = getWeapon(expression);
