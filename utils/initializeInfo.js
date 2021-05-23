@@ -1,5 +1,3 @@
-module.exports = initializeInfo;
-
 // Initializes the game variable
 function initializeInfo(gameJSON) {	
 	gameJSON.game = {};
@@ -9,3 +7,5 @@ function initializeInfo(gameJSON) {
 	gameJSON.kills_by_means = {};
 	return gameJSON;
 }
+
+module.exports = initializeInfo;

@@ -1,6 +1,7 @@
 var lineReader = require('line-reader');
 
 const initializeInfo = require('./utils/initializeInfo');
+const collectGameData = require('./utils/collectGameData');
 
 const regexInitGame = /InitGame/gi;
 const regexKill = /.*Kill.*: /gi;
@@ -31,7 +32,8 @@ function colectGameInfo() {
 
 		// Death event
 		else if(regexKill.test(line) == true) {
-			
+			var expression = line.replace(regexKill, '');
+			gameJSON = collectGameData(expression, gameJSON);			
 		}
 		
 		// End of each game
@@ -40,7 +42,7 @@ function colectGameInfo() {
 		}
 		
 		//End of the log file
-		if(last) {					
+		if(last) {								
 			return;										
 		}
 	});
