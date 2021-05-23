@@ -39,53 +39,9 @@ Since <world> is not a player, it should not appear in the list of players or in
 The counter total_kills includes player and world deaths.
   
 **2. Report**
+  
 Create a script that prints a report (grouped information) for each match and a player ranking.
   
 **3. Plus**
   
 Generate a report of deaths grouped by death cause for each match.
-  
-Death causes (extracted from source code)
-
-// means of death
-typedef enum {
-  MOD_UNKNOWN,
-  MOD_SHOTGUN,
-  MOD_GAUNTLET,
-  MOD_MACHINEGUN,
-  MOD_GRENADE,
-  MOD_GRENADE_SPLASH,
-  MOD_ROCKET,
-  MOD_ROCKET_SPLASH,
-  MOD_PLASMA,
-  MOD_PLASMA_SPLASH,
-  MOD_RAILGUN,
-  MOD_LIGHTNING,
-  MOD_BFG,
-  MOD_BFG_SPLASH,
-  MOD_WATER,
-  MOD_SLIME,
-  MOD_LAVA,
-  MOD_CRUSH,
-  MOD_TELEFRAG,
-  MOD_FALLING,
-  MOD_SUICIDE,
-  MOD_TARGET_LASER,
-  MOD_TRIGGER_HURT,
-#ifdef MISSIONPACK
-  MOD_NAIL,
-  MOD_CHAINGUN,
-  MOD_PROXIMITY_MINE,
-  MOD_KAMIKAZE,
-  MOD_JUICED,
-#endif
-  MOD_GRAPPLE
-} meansOfDeath_t;
-Example
-"game-1": {
-  "kills_by_means": {
-    "MOD_SHOTGUN": 10,
-    "MOD_RAILGUN": 2,
-    "MOD_GAUNTLET": 1,
-    ...
-  }
