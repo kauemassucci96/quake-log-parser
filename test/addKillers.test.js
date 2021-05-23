@@ -35,7 +35,7 @@ let mock_3 = {
 	"total_kills": 0,
 }
 
-initializeInfo(gameJSON);	
+gameJSON = initializeInfo(gameJSON);	
 
 test('Set to 1 if kills is undefined', () => {   
   expect(addKillers(killer, gameJSON)).toEqual(mock_1);  
