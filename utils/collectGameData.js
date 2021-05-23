@@ -4,6 +4,7 @@ const addWeaponKill = require('./addWeaponKill');
 const getKilledPlayer = require('./getKilledPlayer');
 const getKillerPlayer = require('./getKillerPlayer');
 const getWeapon = require('./getWeapon');
+const reduceKillFromPlayer = require('./reduceKillFromPlayer');
 
 // Collect all data for each game
 function colectGameData(expression, gameJSON) {
