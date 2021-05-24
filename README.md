@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was created to parse the Quake log file following the rules below.
+This project was created to parse the Quake log file following the rules below:
 
 ## Rule 1
 
@@ -42,7 +42,7 @@ Example of grouped information for each match:
 2. Since `<world>` is not a player, it should not appear in the list of players or in the dictionary of kills.
 3. The counter `total_kills` includes player and world deaths.
   
-## Rule 2 2
+## Rule 2
   
 Create a script that prints a report (grouped information) for each match and a player ranking.
   
