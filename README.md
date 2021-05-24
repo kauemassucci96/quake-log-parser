@@ -108,8 +108,7 @@ Exemplo:
 			"XXXX": N
 		}
 	}
-	
-## Run the application	
+
 
 ## Requirements
 
@@ -118,21 +117,21 @@ You must have node.js installed.
 ## Running the application
 
 ## 1. Cloning the project
-
-Clone the project using the link: git@github.com:kauemassucci96/quake-log-parser.git
+	
+Clone the project using the link: git@github.com:kauemassucci96/quake-log-parser.git.
 
 ## 2. Enter the application directory
 
-Enter the application directory using the command: **cd quake-log-parser**
+Enter the application directory using the command: **cd quake-log-parser**.
 
 ## 3. Installing the dependencies
 
-Install the dependencies using the **npm install** command
+Install the dependencies using the **npm install** command.
 
 ## 4. Running the application
 
-To run the application run the **node index.js** command,
+Run the application using the **node index.js** command.
 
 ## 4. Performing unit tests
 
-To run the application run the **npm test** command,
+Run the unit tests using **npm test** command.
