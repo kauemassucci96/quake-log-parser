@@ -130,8 +130,8 @@ Install the dependencies using the **npm install** command.
 
 ## 4. Running the application
 
-Run the application using the **node index.js** command.
+Run the application using the **node index.js** command inside **src** folder.
 
 ## 4. Performing unit tests
 
-Run the unit tests using **npm test** command.
+Run the unit tests using **npm test** command inside **src** folder..
