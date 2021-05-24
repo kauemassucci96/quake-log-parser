@@ -3,38 +3,39 @@ const initializeInfo = require('../utils/initializeInfo');
 
 const weapon = "MOD_RAILGUN";
 
-let gameJSON = {
+let gameInfo = {
 	game: {		
 		players: [],
 		total_kills: 0,		
 		kills: {},
 		kills_by_means: {},
+		ranking: {}
 	}
 }
 
-let mock_1 = {
-	"game": {},
-	"kills": {},
-	"kills_by_means": { "MOD_RAILGUN": 1 },
-	"players": [],
-	"total_kills": 0,
+let mock_1 = {	
+	kills: {},
+	kills_by_means: { MOD_RAILGUN: 1},
+	players: [],
+	total_kills: 0,	
+	ranking: {}	
 }
 
-let mock_2 = {
-	"game": {},
-	"kills": {},
-	"kills_by_means": { "MOD_RAILGUN": 2 },
-	"players": [],
-	"total_kills": 0,
+let mock_2 = {	
+	kills: {},
+	kills_by_means: { MOD_RAILGUN: 2 },
+	players: [],
+	total_kills: 0,	
+	ranking: {}	
 }
 
-gameJSON = initializeInfo(gameJSON);	
+gameInfo = initializeInfo(gameInfo);	
 
 test('Add weapon kill when the variable is not initialize', () => {   
-  expect(addWeaponKill(weapon, gameJSON)).toEqual(mock_1);
+  expect(addWeaponKill(weapon, gameInfo)).toEqual(mock_1);
 });
 
 test('Add weapon kill when the variable was initialize', () => {   
-  expect(addWeaponKill(weapon, gameJSON)).toEqual(mock_2);
+  expect(addWeaponKill(weapon, gameInfo)).toEqual(mock_2);
 });
 
