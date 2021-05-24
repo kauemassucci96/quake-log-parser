@@ -7,32 +7,31 @@ const getWeapon = require('./getWeapon');
 const reduceKillFromPlayer = require('./reduceKillFromPlayer');
 
 // Collect all data for each game
-function colectGameData(expression, gameJSON) {
-
+function colectGameData(expression, gameInfo) {
 	// Gets the player killed and player killer
     var killer = getKillerPlayer(expression);
     var killed = getKilledPlayer(expression);
 
     // Add killer players and kills on array
-	gameJSON = addPlayers(killer, gameJSON);
+	gameInfo = addPlayers(killer, gameInfo);
 	if(killer !== "<world>") {
-		gameJSON = addKillers(killer, gameJSON);
+		gameInfo = addKillers(killer, gameInfo);
 	}
 
 	// Add player killed on array
-	gameJSON = addPlayers(killed, gameJSON);
+	gameInfo = addPlayers(killed, gameInfo);
     
 	// Add weapon on kills by means arrat
 	var weapon = getWeapon(expression);
-	gameJSON = addWeaponKill(weapon, gameJSON);
+	gameInfo = addWeaponKill(weapon, gameInfo);
 
 	// if the killer is the world, remove a point from the dead player
 	if(killer === "<world>") {
-		gameJSON = reduceKillFromPlayer(expression, gameJSON);
+		gameInfo = reduceKillFromPlayer(expression, gameInfo);
 	}
 				
-	gameJSON.total_kills++;		
-	return gameJSON;
+	gameInfo.total_kills++;		
+	return gameInfo;
 }
 
 module.exports = colectGameData;
