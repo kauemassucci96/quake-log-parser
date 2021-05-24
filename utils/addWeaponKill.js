@@ -1,13 +1,15 @@
 // Adds a point to the weapon that was used in the killing
-function addWeaponKill(weapon, gameJSON) {	
-	if(gameJSON.kills_by_means[weapon] === undefined) {				
-		gameJSON.kills_by_means[weapon] = 1;	
+function addWeaponKill(weapon, gameInfo) {	
+	// if the weapon is not in the kills_by_means array, set its value to 1
+	// else it adds 1 to the score
+	if(gameInfo.kills_by_means[weapon] === undefined) {				
+		gameInfo.kills_by_means[weapon] = 1;	
 	} 	
 	else {
-		gameJSON.kills_by_means[weapon]++;		
+		gameInfo.kills_by_means[weapon]++;		
 	}
 
-	return gameJSON;
+	return gameInfo;
 }
 
 module.exports = addWeaponKill;
