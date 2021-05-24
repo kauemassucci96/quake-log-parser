@@ -16,7 +16,7 @@ let quantityKills = 0;
 
 // Collect game data
 function colectGameInfo() {
-  let gamesReport = []
+  let gamesReport = [];
   let gameInfo = {};
 
 //   Returns line by line from the log file
@@ -37,13 +37,14 @@ function colectGameInfo() {
 		// End of each game
 		else if(regexShutdownGame.test(line) == true) {	
 			if(Object.keys(gameInfo).length !== 0) {
-        		gameInfo.ranking = createRanking(gameInfo);
-        		gamesReport[`game_${quantityGame}`] = gameInfo;
+        		gameInfo.ranking = createRanking(gameInfo);				
+        		gamesReport[`game_${quantityGame}`] = gameInfo;				
       		}
 		}
 		
 		//End of the log file and display all informations
-		if(last) {										
+		if(last) {		
+			console.log(gamesReport);
 			return;										
 		}
 	});
