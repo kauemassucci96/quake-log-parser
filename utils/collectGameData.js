@@ -20,7 +20,7 @@ function colectGameData(expression, gameJSON) {
 	}
 
 	// Add player killed on array
-	addPlayers(killed, gameJSON);
+	gameJSON = addPlayers(killed, gameJSON);
     
 	// Add weapon on kills by means arrat
 	var weapon = getWeapon(expression);

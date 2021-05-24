@@ -1,11 +1,12 @@
 // Initializes the game variable
-function initializeInfo(gameJSON) {	
-	gameJSON.game = {};
-	gameJSON.players = [];
-	gameJSON.total_kills = 0;
-	gameJSON.kills = {};
-	gameJSON.kills_by_means = {};
-	return gameJSON;
+function initializeInfo() {		
+	return {
+		players: [],
+    total_kills: 0,
+    kills: {},
+    kills_by_means: {},
+    ranking: {}
+	}
 }
 
 module.exports = initializeInfo;
