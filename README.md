@@ -1,6 +1,8 @@
 # quake-log-parser
 
-## Description
+## Descriptions
+
+The project is available at: https://github.com/kauemassucci96/quake-log-parser
 
 This project was created to parse the Quake log file following the rules below:
 
