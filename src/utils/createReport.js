@@ -13,7 +13,7 @@ function formatCurrentDate(){
 }
 
 // Creates the file name
-var file = `gameReport_${formatCurrentDate()}.txt`
+var file = `../reports/gameReport_${formatCurrentDate()}.txt`
 
 // Generates the report of all games
 function createReport(gamesReport) {	
