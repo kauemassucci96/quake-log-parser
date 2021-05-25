@@ -41,6 +41,7 @@ Example of grouped information for each match:
 1. When `<world>` kill a player, that player loses -1 kill score.
 2. Since `<world>` is not a player, it should not appear in the list of players or in the dictionary of kills.
 3. The counter `total_kills` includes player and world deaths.
+4. When the player commits a suicide, a kill is not added to him.
   
 ## Rule 2
   
@@ -109,12 +110,11 @@ Exemplo:
 		}
 	}
 
+## Running the application
 
 ## Requirements
 
 You must have node.js installed.
-
-## Running the application
 
 ## 1. Cloning the project
 	
@@ -132,6 +132,16 @@ Install the dependencies using the **npm install** command.
 
 Run the application using the **node index.js** command inside **src** folder.
 
-## 4. Performing unit tests
+![Captura de Tela 2021-05-24 às 22 38 22](https://user-images.githubusercontent.com/75806677/119427067-c04e8680-bce0-11eb-9cdd-1ad9efbe1aab.png)
+
+## 5. Performing unit tests
 
 Run the unit tests using **npm test** command inside **src** folder..
+
+![Captura de Tela 2021-05-24 às 22 37 53](https://user-images.githubusercontent.com/75806677/119427024-af057a00-bce0-11eb-9db9-71683165dc18.png)
+
+## 6. Reports
+
+The reports for all games are being stored in the "reports" folder.
+
+![Captura de Tela 2021-05-24 às 22 37 29](https://user-images.githubusercontent.com/75806677/119426993-a0b75e00-bce0-11eb-8681-b393addb090b.png)
