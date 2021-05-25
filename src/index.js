@@ -4,6 +4,7 @@ const fs = require('fs');
 const initializeInfo = require('./utils/initializeInfo');
 const collectGameData = require('./utils/collectGameData');
 const createRanking = require('./utils/createRanking');
+const createReport = require('./utils/createReport');
 
 // Contains the regex to get the events from the log
 const regexInitGame = /InitGame/gi;
@@ -38,13 +39,13 @@ function colectGameInfo() {
 		else if(regexShutdownGame.test(line) == true) {	
 			if(Object.keys(gameInfo).length !== 0) {
         		gameInfo.ranking = createRanking(gameInfo);				
-        		gamesReport[`game_${quantityGame}`] = gameInfo;				
+        		gamesReport[`game_${quantityGame}`] = gameInfo;						
       		}
 		}
 		
 		//End of the log file and display all informations
 		if(last) {		
-			console.log(gamesReport);
+			createReport(gamesReport);
 			return;										
 		}
 	});
