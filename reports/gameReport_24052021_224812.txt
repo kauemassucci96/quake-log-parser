@@ -1,0 +1,231 @@
+-------------------------------
+InitGame:
+   Game_1:  {
+       Players: []
+       Total Kills: 0
+       Kills: {}
+       Kills by means: {}
+       Ranking: {}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_2:  {
+       Players: ["Isgalamido","Mocinha"]
+       Total Kills: 11
+       Kills: {"Isgalamido":-7,"Mocinha":0}
+       Kills by means: {"MOD_TRIGGER_HURT":7,"MOD_ROCKET_SPLASH":3,"MOD_FALLING":1}
+       Ranking: {"Mocinha":0,"Isgalamido":-7}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_3:  {
+       Players: ["Isgalamido","Mocinha","Zeh","Dono da Bola"]
+       Total Kills: 4
+       Kills: {"Isgalamido":1,"Mocinha":0,"Zeh":-2,"Dono da Bola":-1}
+       Kills by means: {"MOD_ROCKET":1,"MOD_TRIGGER_HURT":2,"MOD_FALLING":1}
+       Ranking: {"Isgalamido":1,"Mocinha":0,"Dono da Bola":-1,"Zeh":-2}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_4:  {
+       Players: ["Isgalamido","Dono da Bola","Zeh","Assasinu Credi"]
+       Total Kills: 105
+       Kills: {"Isgalamido":19,"Dono da Bola":9,"Zeh":20,"Assasinu Credi":12}
+       Kills by means: {"MOD_TRIGGER_HURT":9,"MOD_FALLING":11,"MOD_ROCKET":20,"MOD_RAILGUN":8,"MOD_ROCKET_SPLASH":51,"MOD_MACHINEGUN":4,"MOD_SHOTGUN":2}
+       Ranking: {"Zeh":20,"Isgalamido":19,"Assasinu Credi":12,"Dono da Bola":9}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_5:  {
+       Players: ["Isgalamido","Zeh","Dono da Bola","Assasinu Credi"]
+       Total Kills: 14
+       Kills: {"Isgalamido":2,"Zeh":1,"Dono da Bola":0,"Assasinu Credi":-1}
+       Kills by means: {"MOD_ROCKET":4,"MOD_ROCKET_SPLASH":4,"MOD_TRIGGER_HURT":5,"MOD_RAILGUN":1}
+       Ranking: {"Isgalamido":2,"Zeh":1,"Dono da Bola":0,"Assasinu Credi":-1}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_6:  {
+       Players: ["Oootsimo","Zeh","Isgalamido","UnnamedPlayer","Dono da Bola","Maluquinho","Assasinu Credi","Mal"]
+       Total Kills: 29
+       Kills: {"Oootsimo":8,"Zeh":7,"Isgalamido":3,"UnnamedPlayer":0,"Dono da Bola":2,"Maluquinho":0,"Assasinu Credi":1,"Mal":0}
+       Kills by means: {"MOD_ROCKET":5,"MOD_RAILGUN":2,"MOD_SHOTGUN":4,"MOD_ROCKET_SPLASH":13,"MOD_TRIGGER_HURT":3,"MOD_FALLING":1,"MOD_MACHINEGUN":1}
+       Ranking: {"Oootsimo":8,"Zeh":7,"Isgalamido":3,"Dono da Bola":2,"Assasinu Credi":1,"UnnamedPlayer":0,"Maluquinho":0,"Mal":0}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_7:  {
+       Players: ["Zeh","Dono da Bola","Assasinu Credi","Oootsimo","Isgalamido","Mal","Chessus"]
+       Total Kills: 130
+       Kills: {"Zeh":8,"Dono da Bola":10,"Assasinu Credi":19,"Oootsimo":20,"Isgalamido":14,"Mal":-3,"Chessus":0}
+       Kills by means: {"MOD_FALLING":7,"MOD_TRIGGER_HURT":20,"MOD_ROCKET_SPLASH":49,"MOD_ROCKET":29,"MOD_SHOTGUN":7,"MOD_RAILGUN":9,"MOD_MACHINEGUN":9}
+       Ranking: {"Oootsimo":20,"Assasinu Credi":19,"Isgalamido":14,"Dono da Bola":10,"Zeh":8,"Chessus":0,"Mal":-3}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_8:  {
+       Players: ["Oootsimo","Isgalamido","Zeh","Assasinu Credi","Mal","Dono da Bola"]
+       Total Kills: 89
+       Kills: {"Oootsimo":15,"Isgalamido":20,"Zeh":12,"Assasinu Credi":9,"Mal":-3,"Dono da Bola":1}
+       Kills by means: {"MOD_TRIGGER_HURT":9,"MOD_ROCKET":18,"MOD_ROCKET_SPLASH":39,"MOD_FALLING":6,"MOD_RAILGUN":12,"MOD_MACHINEGUN":4,"MOD_SHOTGUN":1}
+       Ranking: {"Isgalamido":20,"Oootsimo":15,"Zeh":12,"Assasinu Credi":9,"Dono da Bola":1,"Mal":-3}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_9:  {
+       Players: ["Assasinu Credi","Oootsimo","Zeh","Mal","Dono da Bola","Isgalamido","Chessus"]
+       Total Kills: 67
+       Kills: {"Assasinu Credi":7,"Oootsimo":8,"Zeh":12,"Mal":2,"Dono da Bola":1,"Isgalamido":1,"Chessus":8}
+       Kills by means: {"MOD_TRIGGER_HURT":8,"MOD_ROCKET_SPLASH":25,"MOD_SHOTGUN":1,"MOD_ROCKET":17,"MOD_MACHINEGUN":3,"MOD_FALLING":3,"MOD_RAILGUN":10}
+       Ranking: {"Zeh":12,"Oootsimo":8,"Chessus":8,"Assasinu Credi":7,"Mal":2,"Dono da Bola":1,"Isgalamido":1}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_10:  {
+       Players: ["Mal","Oootsimo","Assasinu Credi","Dono da Bola","Chessus","Zeh","Isgalamido"]
+       Total Kills: 60
+       Kills: {"Mal":1,"Oootsimo":-1,"Assasinu Credi":3,"Dono da Bola":3,"Chessus":5,"Zeh":7,"Isgalamido":5}
+       Kills by means: {"MOD_TELEFRAG":25,"MOD_TRIGGER_HURT":17,"MOD_ROCKET":4,"MOD_ROCKET_SPLASH":1,"MOD_RAILGUN":7,"MOD_BFG_SPLASH":2,"MOD_BFG":2,"MOD_MACHINEGUN":1,"MOD_CRUSH":1}
+       Ranking: {"Zeh":7,"Chessus":5,"Isgalamido":5,"Assasinu Credi":3,"Dono da Bola":3,"Mal":1,"Oootsimo":-1}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_11:  {
+       Players: ["Dono da Bola","Isgalamido","Oootsimo","Assasinu Credi","Chessus","Zeh","Mal"]
+       Total Kills: 20
+       Kills: {"Dono da Bola":-2,"Isgalamido":4,"Oootsimo":4,"Assasinu Credi":-3,"Chessus":0,"Zeh":0,"Mal":0}
+       Kills by means: {"MOD_TRIGGER_HURT":7,"MOD_CRUSH":1,"MOD_ROCKET_SPLASH":4,"MOD_BFG_SPLASH":3,"MOD_MACHINEGUN":1,"MOD_RAILGUN":4}
+       Ranking: {"Isgalamido":4,"Oootsimo":4,"Chessus":0,"Zeh":0,"Mal":0,"Dono da Bola":-2,"Assasinu Credi":-3}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_12:  {
+       Players: ["Dono da Bola","Assasinu Credi","Chessus","Mal","Zeh","Isgalamido","Oootsimo"]
+       Total Kills: 160
+       Kills: {"Dono da Bola":3,"Assasinu Credi":18,"Chessus":12,"Mal":-7,"Zeh":11,"Isgalamido":24,"Oootsimo":12}
+       Kills by means: {"MOD_TRIGGER_HURT":37,"MOD_RAILGUN":38,"MOD_ROCKET_SPLASH":35,"MOD_BFG_SPLASH":8,"MOD_ROCKET":25,"MOD_MACHINEGUN":7,"MOD_BFG":8,"MOD_FALLING":2}
+       Ranking: {"Isgalamido":24,"Assasinu Credi":18,"Chessus":12,"Oootsimo":12,"Zeh":11,"Dono da Bola":3,"Mal":-7}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_13:  {
+       Players: ["Isgalamido","Oootsimo","Assasinu Credi","Dono da Bola","Zeh"]
+       Total Kills: 6
+       Kills: {"Isgalamido":-1,"Oootsimo":1,"Assasinu Credi":0,"Dono da Bola":-1,"Zeh":2}
+       Kills by means: {"MOD_TRIGGER_HURT":2,"MOD_ROCKET":1,"MOD_ROCKET_SPLASH":1,"MOD_BFG_SPLASH":1,"MOD_BFG":1}
+       Ranking: {"Zeh":2,"Oootsimo":1,"Assasinu Credi":0,"Isgalamido":-1,"Dono da Bola":-1}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_14:  {
+       Players: ["Isgalamido","Zeh","Chessus","Dono da Bola","Mal","Oootsimo","Assasinu Credi"]
+       Total Kills: 122
+       Kills: {"Isgalamido":22,"Zeh":4,"Chessus":7,"Dono da Bola":1,"Mal":-5,"Oootsimo":9,"Assasinu Credi":3}
+       Kills by means: {"MOD_RAILGUN":20,"MOD_TRIGGER_HURT":31,"MOD_ROCKET":23,"MOD_ROCKET_SPLASH":24,"MOD_MACHINEGUN":4,"MOD_BFG_SPLASH":10,"MOD_FALLING":5,"MOD_BFG":5}
+       Ranking: {"Isgalamido":22,"Oootsimo":9,"Chessus":7,"Zeh":4,"Assasinu Credi":3,"Dono da Bola":1,"Mal":-5}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_15:  {
+       Players: ["Zeh"]
+       Total Kills: 3
+       Kills: {"Zeh":-3}
+       Kills by means: {"MOD_TRIGGER_HURT":3}
+       Ranking: {"Zeh":-3}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_16:  {
+       Players: []
+       Total Kills: 0
+       Kills: {}
+       Kills by means: {}
+       Ranking: {}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_17:  {
+       Players: ["Dono da Bola","Zeh","Assasinu Credi","Oootsimo","Isgalamido","Mal"]
+       Total Kills: 13
+       Kills: {"Dono da Bola":-2,"Zeh":0,"Assasinu Credi":-3,"Oootsimo":0,"Isgalamido":0,"Mal":-1}
+       Kills by means: {"MOD_FALLING":3,"MOD_TRIGGER_HURT":6,"MOD_RAILGUN":2,"MOD_ROCKET_SPLASH":2}
+       Ranking: {"Zeh":0,"Oootsimo":0,"Isgalamido":0,"Mal":-1,"Dono da Bola":-2,"Assasinu Credi":-3}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_18:  {
+       Players: ["Zeh","Assasinu Credi","Isgalamido","Mal","Oootsimo","Dono da Bola"]
+       Total Kills: 7
+       Kills: {"Zeh":2,"Assasinu Credi":2,"Isgalamido":1,"Mal":-1,"Oootsimo":0,"Dono da Bola":-1}
+       Kills by means: {"MOD_ROCKET_SPLASH":4,"MOD_ROCKET":1,"MOD_FALLING":1,"MOD_TRIGGER_HURT":1}
+       Ranking: {"Zeh":2,"Assasinu Credi":2,"Isgalamido":1,"Oootsimo":0,"Mal":-1,"Dono da Bola":-1}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_19:  {
+       Players: ["Mal","Zeh","Dono da Bola","Isgalamido","Assasinu Credi","Oootsimo"]
+       Total Kills: 95
+       Kills: {"Mal":2,"Zeh":20,"Dono da Bola":12,"Isgalamido":13,"Assasinu Credi":8,"Oootsimo":10}
+       Kills by means: {"MOD_TRIGGER_HURT":12,"MOD_ROCKET":27,"MOD_ROCKET_SPLASH":32,"MOD_SHOTGUN":6,"MOD_RAILGUN":10,"MOD_MACHINEGUN":7,"MOD_FALLING":1}
+       Ranking: {"Zeh":20,"Isgalamido":13,"Dono da Bola":12,"Oootsimo":10,"Assasinu Credi":8,"Mal":2}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_20:  {
+       Players: ["Dono da Bola","Zeh","Oootsimo","Assasinu Credi"]
+       Total Kills: 3
+       Kills: {"Dono da Bola":1,"Zeh":0,"Oootsimo":1,"Assasinu Credi":0}
+       Kills by means: {"MOD_ROCKET_SPLASH":2,"MOD_ROCKET":1}
+       Ranking: {"Dono da Bola":1,"Oootsimo":1,"Zeh":0,"Assasinu Credi":0}
+   }
+ShutdownGame:
+-------------------------------
+-------------------------------
+InitGame:
+   Game_21:  {
+       Players: ["Dono da Bola","Isgalamido","Zeh","Oootsimo","Mal","Assasinu Credi"]
+       Total Kills: 131
+       Kills: {"Dono da Bola":12,"Isgalamido":17,"Zeh":19,"Oootsimo":21,"Mal":6,"Assasinu Credi":16}
+       Kills by means: {"MOD_ROCKET":37,"MOD_TRIGGER_HURT":14,"MOD_RAILGUN":9,"MOD_ROCKET_SPLASH":60,"MOD_MACHINEGUN":4,"MOD_SHOTGUN":4,"MOD_FALLING":3}
+       Ranking: {"Oootsimo":21,"Zeh":19,"Isgalamido":17,"Assasinu Credi":16,"Dono da Bola":12,"Mal":6}
+   }
+ShutdownGame:
+-------------------------------
