@@ -1,4 +1,4 @@
-const getWeapon = require('../utils/getWeapon');
+const getWeapon = require('../src/utils/getWeapon');
 
 const WEAPON_MOD_TRIGGER_HURT = '<world> killed Mal by MOD_TRIGGER_HURT';
 const WEAPON_MOD_ROCKET_SPLASH = '<world> killed Mal by MOD_ROCKET_SPLASH';

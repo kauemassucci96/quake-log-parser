@@ -1,5 +1,5 @@
-const initializeInfo = require('../utils/initializeInfo');
-const reduceKillFromPlayer = require('../utils/reduceKillFromPlayer');
+const initializeInfo = require('../src/utils/initializeInfo');
+const reduceKillFromPlayer = require('../src/utils/reduceKillFromPlayer');
 const weapon = "MOD_RAILGUN";
 const kill_one = '<world> killed Mal by MOD_ROCKET';
 const kill_two = '<world> killed Dono da Bola by MOD_ROCKET';

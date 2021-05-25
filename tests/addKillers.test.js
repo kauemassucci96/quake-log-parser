@@ -1,5 +1,5 @@
-const addKillers = require('../utils/addKillers');
-const initializeInfo = require('../utils/initializeInfo');
+const addKillers = require('../src/utils/addKillers');
+const initializeInfo = require('../src/utils/initializeInfo');
 const killer = "Zeh";
 
 let gameInfo = {

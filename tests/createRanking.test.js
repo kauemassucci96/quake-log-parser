@@ -1,4 +1,4 @@
-const createRanking = require('../utils/createRanking');
+const createRanking = require('../src/utils/createRanking');
 
 let gameInfo =  {
     players: [

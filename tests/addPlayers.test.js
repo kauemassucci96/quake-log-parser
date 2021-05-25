@@ -1,5 +1,5 @@
-const addPlayers = require('../utils/addPlayers');
-const initializeInfo = require('../utils/initializeInfo');
+const addPlayers = require('../src/utils/addPlayers');
+const initializeInfo = require('../src/utils/initializeInfo');
 
 const ZEH_PLAYER = "Zeh";
 const WORLD_PLAYER = "<world>"
