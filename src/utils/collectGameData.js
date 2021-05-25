@@ -12,9 +12,11 @@ function colectGameData(expression, gameInfo) {
     var killer = getKillerPlayer(expression);
     var killed = getKilledPlayer(expression);
 
-    // Add killer players and kills on array
+    // Add players on array
 	gameInfo = addPlayers(killer, gameInfo);
-	if(killer !== "<world>") {
+
+	// Add a kill if the killer is different from <world> or if the player did not commit suicide
+	if(killer !== "<world>" && killer !== killed) {
 		gameInfo = addKillers(killer, gameInfo);
 	}
 
