@@ -1,5 +1,5 @@
-const collectGameData = require('../utils/collectGameData');
-const initializeInfo = require('../utils/initializeInfo');
+const collectGameData = require('../src/utils/collectGameData');
+const initializeInfo = require('../src/utils/initializeInfo');
 
 const expression = '<world> killed Mal by MOD_TRIGGER_HURT';
 

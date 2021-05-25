@@ -1,4 +1,4 @@
-const initializeInfo = require('../utils/initializeInfo');
+const initializeInfo = require('../src/utils/initializeInfo');
 
 let gameInfo = {};
 

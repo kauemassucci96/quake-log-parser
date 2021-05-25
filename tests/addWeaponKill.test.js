@@ -1,5 +1,5 @@
-const addWeaponKill = require('../utils/addWeaponKill');
-const initializeInfo = require('../utils/initializeInfo');
+const addWeaponKill = require('../src/utils/addWeaponKill');
+const initializeInfo = require('../src/utils/initializeInfo');
 
 const weapon = "MOD_RAILGUN";
 

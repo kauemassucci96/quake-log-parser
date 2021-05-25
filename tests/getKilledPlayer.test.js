@@ -1,4 +1,4 @@
-const getKilledPlayer = require('../utils/getKilledPlayer');
+const getKilledPlayer = require('../src/utils/getKilledPlayer');
 
 const PLAYER_MAL = '<world> killed Mal by MOD_TRIGGER_HURT';
 const PLAYER_ZEH = '<world> killed Zeh by MOD_TRIGGER_HURT';
